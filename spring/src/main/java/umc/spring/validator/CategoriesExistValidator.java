@@ -25,7 +25,8 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
             context.disableDefaultConstraintViolation();
             context.buildConstraintViolationWithTemplate(ErrorStatus.FOOD_CATEGORY_NOT_FOUND.toString()).addConstraintViolation();
         }
-        return false;
+
+        return isValid;
     }
 
     @Override
