@@ -23,8 +23,8 @@ public enum ErrorStatus implements BaseErrorCode {
     // food_category
     FOOD_CATEGORY_NOT_FOUND(HttpStatus.NOT_FOUND, "FOOD-CATEGORY4041", "카테고리가 없습니다."),
 
-    // article
-    ARTICLE_NOT_FOUND(HttpStatus.NOT_FOUND, "ARTICLE4001", "게시글이 없습니다."),
+    // region
+    REGION_NOT_FOUND(HttpStatus.NOT_FOUND, "REGION4041", "지역이 없습니다."),
 
     // temp (for test)
     TEMP_EXCEPTION(HttpStatus.BAD_REQUEST, "TEMP4001", "테스트")

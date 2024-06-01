@@ -12,7 +12,7 @@ import umc.spring.converter.MemberPreferConverter;
 import umc.spring.domain.FoodCategory;
 import umc.spring.domain.Member;
 import umc.spring.domain.mapping.MemberPrefer;
-import umc.spring.dto.MemberRequestDTO;
+import umc.spring.dto.memberDto.MemberRequestDTO;
 import umc.spring.repository.FoodCategoryRepository;
 import umc.spring.repository.MemberRepository;
 
